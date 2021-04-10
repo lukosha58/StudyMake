@@ -28,7 +28,7 @@ int main()
             cerr<<"С таким числом ты сразу проиграл\n";
             return 2;
         }
-        int res = random() % 6 + 1;
+        int res =  1;
         cout<<"Выпало число "<<res<<endl;
         if (num == res) {
             cout<<"Ты читер!!!\n";
